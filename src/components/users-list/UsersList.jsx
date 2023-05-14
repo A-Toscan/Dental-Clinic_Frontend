@@ -17,7 +17,7 @@ export default function UsersList({ users, page, count, onChange }) {
           <tr>
             <th>Id</th>
             <th>Name</th>
-            <th>Last name</th>
+            <th>Surname</th>
             <th>
               <BsFillEnvelopeFill />
               Email
