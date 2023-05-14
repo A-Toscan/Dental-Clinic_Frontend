@@ -32,13 +32,13 @@ export default function Header() {
           <li className="nav-item">
             <NavLink to="/">Home</NavLink>
           </li>
-
-          <li className="nav-item">
-            <NavLink to="/appointments">Appointments</NavLink>
-          </li>
           <li className="nav-item">
             <NavLink to="/about">About</NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink to="/appointments">Appointments</NavLink>
+          </li>
+          
 
           {isAdmin && (
             <>

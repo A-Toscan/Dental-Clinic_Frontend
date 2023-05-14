@@ -12,7 +12,7 @@ appointmentService.getAllAppointments = async (token, user_id) => {
 
   return (
     await axios.get(
-      global.BASE_URL + `/appointments/checkall/${user_id}`,
+      global.BASE_URL + `/users/appointments/checkall/${user_id}`,
       config
     )
   ).data;

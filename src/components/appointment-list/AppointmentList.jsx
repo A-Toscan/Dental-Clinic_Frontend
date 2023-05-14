@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
 import "./AppointmentList.scss";
-import { BsFillEnvelopeFill, BsFillTelephoneFill } from "react-icons/bs";
+//import { BsFillEnvelopeFill, BsFillTelephoneFill } from "react-icons/bs";
 import DataListTable from "../data-list-table/DataListTable";
-import { useState } from "react";
 import appointmentService from "../../_services/appointmentService";
 // import { dateFormat } from "../../_util/date";
 
@@ -13,14 +12,18 @@ export default function AppointmentList({ appointments }) {
 
   const authState = useSelector((state) => state.auth);
   const isAdmin = authState.userInfo.role == "3";
+  const user_id = authState.userInfo.id;
 
-  const user_id = useEffect(() => {
+  useEffect(() => {
+    console.log("UserEffect");
     if (!isAdmin) {
+      console.log("NoAdmin");
       getAllAppointments(authState.userToken, user_id);
     } else {
+      console.log("Admin");
       navigate("/");
     }
-  });
+  }, [appointments]);
 
   const getAllAppointments = async (token, user_id) => {
     try {
@@ -28,6 +31,8 @@ export default function AppointmentList({ appointments }) {
         token,
         user_id
       );
+      console.log(response);
+      console.log("get all appointment");
       setAppointments(response.data);
     } catch (error) {
       console.log(error);
