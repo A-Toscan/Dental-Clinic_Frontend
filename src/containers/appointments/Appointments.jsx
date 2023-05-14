@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
-import { BsCalendarDate, BiTimeFive } from "react-icons/bs";
 import DataListTable from "../../components/data-list-table/DataListTable";
-// import { useState } from "react";
 import appointmentService from "../../_services/appointmentService";
 import { useNavigate } from "react-router-dom";
 
