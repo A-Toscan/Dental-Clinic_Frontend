@@ -1,7 +1,6 @@
-import "./App.css";
+import "./App.scss";
 import { BrowserRouter } from "react-router-dom";
 import { Header } from "./components/";
-import "./App.scss";
 import AppRouter from "./AppRouter";
 
 function App() {
