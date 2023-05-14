@@ -20,7 +20,8 @@ export default function Appointments() {
     } else {
       navigate("/");
     }
-  }, [allAppointments]);
+
+}, [allAppointments]);
 
   const getAllAppointments = async (token, user_id) => {
     try {
