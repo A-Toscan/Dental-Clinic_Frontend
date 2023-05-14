@@ -107,14 +107,14 @@ See all appointment doctors
 Technology used:
 
 <div align="center">
-<a href="https://sequelize.org/">
-    <img src= "https://img.shields.io/badge/sequelize-323330?style=for-the-badge&logo=sequelize&logoColor=white"/>
+<a href="https://es.react.dev/">
+    <img src= "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
 </a>
-<a href="https://www.expressjs.com/">
-    <img src= "https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
+<a href="https://redux.js.org/">
+    <img src= "https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white"/>
 </a>
-<a href="https://nodejs.org/es/">
-    <img src= "https://img.shields.io/badge/node.js-026E00?style=for-the-badge&logo=node.js&logoColor=white"/>
+<a href="https://sass-lang.com/">
+    <img src= "https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"/>
 </a>
 <a href="https://developer.mozilla.org/es/docs/Web/JavaScript">
     <img src= "https://img.shields.io/badge/javascipt-EFD81D?style=for-the-badge&logo=javascript&logoColor=black"/>
