@@ -1,19 +1,26 @@
 .Header {
     border-bottom: 1px solid gray;
     padding-bottom: 1em;
+    
+    
+
 
     .navbar {
         display: flex;
         text-align: left;
         justify-content: space-between;
+        background-color: lightgreen;
+        color: white;
     }
 
     .navbar-nav {
         display: flex;
+        border-radius: 50%;
     }
 
     .icon {
         font-size: 1.2em;
+        
     }
 
     .navbar-nav,

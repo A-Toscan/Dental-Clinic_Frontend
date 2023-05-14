@@ -1,6 +1,7 @@
 import Header from "./header/";
 import UsersList from "./users-list/UsersList";
-import TablePagination from "./table-pagination/TablePagination";
 import DataListTable from "./data-list-table/DataListTable";
+// import TablePagination from "./table-pagination/TablePagination";
 
-export { Header, UsersList, TablePagination, DataListTable };
+
+export { Header, UsersList, DataListTable};

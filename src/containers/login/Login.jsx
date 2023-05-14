@@ -3,8 +3,9 @@ import authService from "../../_services/authService";
 import { updateAuthStoreStateLogin } from "../../features/authentication/updateAuthState";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
+import  "../login/Login.scss";
 
-export default function Login() {
+function Login() {
   const initialFormValues = {
     email: "mandia@email.com",
     password: "12345678",
@@ -59,7 +60,8 @@ export default function Login() {
   };
 
   return (
-    <div>
+    <div className="Login"> 
+    <div className="Form">
       <h1>Login</h1>
       <pre style={{ textAlign: "left", width: "250px", margin: "auto" }}>
         {JSON.stringify(formValues, null, 2)}
@@ -82,7 +84,7 @@ export default function Login() {
         />{" "}
         <br />
         <br />
-        <button>Send</button>
+        <button className="LoginButton">Send</button>
       </form>
 
       {/* <button
@@ -95,5 +97,8 @@ export default function Login() {
       <br />
       {loginError && <p style={{ color: "red" }}>{loginError}</p>}
     </div>
+    </div>
   );
 }
+
+export default Login;

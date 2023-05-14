@@ -1,9 +1,9 @@
 import axios from "axios";
 import { global } from "../_global/global";
 
-const userService = {};
+const appointmentService = {};
 
-userService.getAllPatients = async (token, page = 1) => {
+appointmentService.getAllAppointments = async (token, user_id) => {
   const config = {
     headers: {
       Authorization: `Bearer ${token}`,
@@ -12,10 +12,10 @@ userService.getAllPatients = async (token, page = 1) => {
 
   return (
     await axios.get(
-      global.BASE_URL + `/users/profile/checkallpatients?page=${page}`,
+      global.BASE_URL + `/appointments/checkall/${user_id}`,
       config
     )
   ).data;
 };
 
-export default userService;
+export default appointmentService;
