@@ -24,6 +24,7 @@ export default function Header() {
     navigate("/");
   };
 
+  
   return (
     <div className="Header">
       <nav className="navbar">
