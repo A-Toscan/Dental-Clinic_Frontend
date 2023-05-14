@@ -9,7 +9,6 @@ export default function Admin() {
   //hooks
   const [users, setUsers] = useState([]);
   const [usersPage, setUsersPage] = useState(1);
-  
 
   const navigate = useNavigate();
   const authState = useSelector((state) => state.auth);
@@ -29,7 +28,6 @@ export default function Admin() {
     const { page, userId } = e.currentTarget.dataset;
     handleSingleUser(userId);
   };
-
 
   const handleSingleUser = (userId) => {
     //
