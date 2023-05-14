@@ -87,13 +87,6 @@ function Login() {
           <button className="LoginButton">Send</button>
         </form>
 
-        {/* <button
-            onClick={() => {
-               updateAuthStoreStateLogout();
-            }}
-         >
-            Logout
-         </button> */}
         <br />
         {loginError && <p style={{ color: "red" }}>{loginError}</p>}
       </div>

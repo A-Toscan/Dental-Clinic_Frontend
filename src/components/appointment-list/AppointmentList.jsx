@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
 import "./AppointmentList.scss";
-//import { BsFillEnvelopeFill, BsFillTelephoneFill } from "react-icons/bs";
+
 import DataListTable from "../data-list-table/DataListTable";
 import appointmentService from "../../_services/appointmentService";
-// import { dateFormat } from "../../_util/date";
+
 
 export default function AppointmentList({ appointments }) {
   //hooks
