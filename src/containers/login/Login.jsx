@@ -63,9 +63,9 @@ function Login() {
     <div className="Login">
       <div className="Form">
         <h1>Login</h1>
-        <pre style={{ textAlign: "left", width: "250px", margin: "auto" }}>
+        {/* <pre style={{ textAlign: "left", width: "250px", margin: "auto" }}>
           {JSON.stringify(formValues, null, 2)}
-        </pre>
+        </pre> */}
         <form noValidate onSubmit={handleSubmit}>
           <label htmlFor="">Email</label> <br />
           <input

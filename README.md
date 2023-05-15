@@ -38,9 +38,9 @@ necessary for the correct functioning of the application.
 - View of all registered users on the platform (as an administrator).
 
 
-## Diagrama BD
+## Docker Connection
 
-!['imagen-db'](./_img/db.png)
+!['imagen-db'](./public/img/docker.JPG)
 
 ## Instalation 
 
@@ -63,42 +63,19 @@ Instalation on local
 
 <details>
 <summary>Endpoints</summary>
-
-User Register
-!['imagen-db'](./_img/user_register.JPG)
+Homa
+!['imagen-db'](./public/img/home.JPG)
 
 Login
-!['imagen-db'](./_img/login.JPG)
+!['imagen-db'](./public/img/login.JPG)
 
-User Profile
-!['imagen-db'](./_img/user_profile.JPG)
+Admin panel
+!['imagen-db'](./public/img/adminpanel.JPG)
 
-Modify User
-!['imagen-db'](./_img/modify_user.JPG)
+Appointments panel
+!['imagen-db'](./public/img/appointments.JPG)
 
-Appointment creation
-!['imagen-db'](./_img/create_appoinment.JPG)
 
-Appointment modify
-!['imagen-db'](./_img/modify_appointment.JPG)
-
-Appointment delete
-!['imagen-db'](./_img/delete_appointment.JPG)
-
-Doctor register
-!['imagen-db'](./_img/doctor_register.JPG)
-
-See all Doctors
-!['imagen-db'](./_img/see_all_doctors.JPG)
-
-See all Patients
-!['imagen-db'](./_img/see_all_patients.JPG)
-
-See all appointment patients
-!['imagen-db'](./_img/see_appointment_patients.JPG)
-
-See all appointment doctors
-!['imagen-db'](./_img/see_appointment_doctors.JPG)
 
 </details>
 
